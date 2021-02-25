@@ -1,0 +1,9 @@
+site_name: Qualitative Research and Computers
+
+nav:
+    - Home: index.md
+    - Open coding:
+        - Introduction: open-coding/index.md
+        - Atlas.TI: open-coding/atlasti.md
+
+theme: material
