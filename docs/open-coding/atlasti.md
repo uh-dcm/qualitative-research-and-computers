@@ -45,7 +45,9 @@ Quotations can be overlap or be inside other codes if that makes sense.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nVoVQEvK7OM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Code manager
+It is possible to create codes automatically: use certain key phrases and automatically code sentences or paragraphs where they are used.
+
+### Managing and organising codes
 
 During research project, many codes emerge.
 At least for me, some of them are typos which need to be edited.
@@ -53,20 +55,35 @@ Some of them may be the same conceptual idea, which has evolved during the work.
 Code Manager is the interface to rename, merge, split and even remove codes.
 This helps to maintain the potentially messy list of codes.
 
-TODO: Add video
-
 Furthermore, it is possible to group codes into wider **code groups** to aggregate data into more conceptual tools.
 Similarly, it is possible to change the colour of codes to help further manage the complexity of the codes.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Aui51LRdKEk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Quotation manager
+### From codes back to quotation
 
-### Relationships
+After the code stage, the analysis moves forward.
+During this time, it is often necessarily to see the quotations for each code.
+To access these, quotation manager is used.
+The essential use for quotation manager is to have an easy access to your research materials based on the codes and code groups established in the prior step.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0n4Ii1eAURY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Final hints
+Quotation manager allows to export (create an report) of all quotations under a single code.
+As the name report suggests, this can be helpful to report the data.
 
-### What is a code?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JlMzVVNKH7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Why commenting is important
+### More complex analysis
+
+Atlas.TI is an versatile environment ot work with qualitative data.
+For example, it allows to conduct queries to the data, examining if codes overlap or are near-by each other.
+Thus, one can examine data using combinations of codes throught search interface.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/798mqjMKyVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+It is also possible to create linkages between codes.
+These can be visualised as a network to help further analysis of them.
+The network view can help to examine how documents, quotations and codes together visually.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/llelw22MFeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
