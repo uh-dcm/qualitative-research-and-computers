@@ -1,0 +1,38 @@
+name: Build Documentation using MkDocs
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  page_build:
+  schedule:
+    - cron: "0 7 * * *"
+
+jobs:
+  build:
+    name: Build and Deploy Documentation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check internal links
+        id: internal
+        uses: filiph/linkcheck@v2.0.15+1
+        with:
+          arguments: https://uh-soco.github.io/course-qualitative-research-and-computers/
+      - name: Create Issue Action
+        if: ${{ failure() }}
+        with:
+          title: Broken links
+          labels: links
+          body:  ${{ steps.internal.outputs }}
+
+      - name: Check external links
+        uses: filiph/linkcheck@v2.0.15+1
+        id: external
+        with:
+          arguments: -e https://uh-soco.github.io/course-qualitative-research-and-computers/
+
+      - name: Create Issue Action
+        if: ${{ failure() }}
+        with:
+          title: Broken links
+          labels: links
+          body:  ${{ steps.external.outputs }}
