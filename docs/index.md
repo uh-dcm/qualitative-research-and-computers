@@ -12,10 +12,10 @@ Please see following pages for tasks and instructions.
 
 # Modules
 
-* [Open coding](/open-coding/) is a data-driven analysis practice, allowing the data to speak on its own.
+* [Open coding](open-coding/) is a data-driven analysis practice, allowing the data to speak on its own.
 For example, grounded theory and thematic analysis often apply open coding approach.
 Common software to conduct this kind of work is Atlas.TI and NVivo.
-* [Closed coding](/closed-coding/) is theory-driven analysis practice, pre-existing theory is used to analyse data.
+* [Closed coding](closed-coding/) is theory-driven analysis practice, pre-existing theory is used to analyse data.
 For example, content analysis often applies closed coding approach.
 * Audiovisual material module focuses on opportunities to use software tools for images, video and audio data.
 Module is under development is is released during early April.

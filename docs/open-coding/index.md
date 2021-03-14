@@ -53,7 +53,7 @@ The papers have been chosen so that the teaching team has been involved in analy
 
 ## Computational tools for open coding approach
 
-* [Atlas.TI](/open-coding/atlasti)
+* [Atlas.TI](atlasti)
 
 ## Additional reading
 

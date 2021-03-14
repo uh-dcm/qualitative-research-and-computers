@@ -30,4 +30,4 @@ The papers have been chosen so that the teaching team has been involved in analy
 
 ## Computational tools for open coding approach
 
-* [DiscoveryText](/closed-coding/discoverytext)
+* [DiscoveryText](discoverytext)
