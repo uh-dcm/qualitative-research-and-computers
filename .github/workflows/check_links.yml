@@ -17,7 +17,9 @@ jobs:
         uses: filiph/linkcheck@v2.0.15+1
         with:
           arguments: https://uh-soco.github.io/course-qualitative-research-and-computers/
+
       - name: Create Issue Action
+        uses: nashmaniac/create-issue-action@v1.1
         if: ${{ failure() }}
         with:
           title: Broken links
@@ -31,6 +33,7 @@ jobs:
           arguments: -e https://uh-soco.github.io/course-qualitative-research-and-computers/
 
       - name: Create Issue Action
+        uses: nashmaniac/create-issue-action@v1.1
         if: ${{ failure() }}
         with:
           title: Broken links
