@@ -1,9 +1,15 @@
 site_name: Qualitative Research and Computers
 
 nav:
-    - Home: index.md
-    - Open coding:
-        - Introduction: open-coding/index.md
-        - Atlas.TI: open-coding/atlasti.md
+  - Home: index.md
+  - Open coding:
+    - Introduction: open-coding/index.md
+    - Atlas.TI: open-coding/atlasti.md
+  - Closed coding:
+    - Introduction: closed-coding/index.md
+    - DiscoveryText: closed-coding/discoverytext.md
 
 theme: material
+
+plugins:
+  - search

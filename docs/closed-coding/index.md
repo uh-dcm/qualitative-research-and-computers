@@ -1,0 +1,31 @@
+# Closed coding
+
+Closed coding refers to qualitative research practice where material is coded with a pre-defined code list.
+Thus, it is a deductive approach, where the aim is to use theory-informed approaches to understand the data.
+
+Closed coding is most familiar from (quantitative) **content analysis*.
+[Content analysis](https://en.wikipedia.org/wiki/Content_analysis), where one works by
+
+1. identifying which theoretical measurements are used for the data
+1. coding data using the said theoretical approaches
+1. examining the validity of coding process
+1. conducting comparison across the data sets
+
+## What about validity?
+
+Closed coding is always based on interpretation.
+However, in its theory-driven nature, scholars often seek to ensure that these interpretations are shared across different people
+To quantify these, scholars can compute **inter-rater reliability score**, including [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa).
+Different scholars and fields have a bit different ideas on expected values, but usually for Cohen's kappa > 0.60 is seen acceptable and > 0.8 good.
+
+
+## Example papers
+
+Sometimes it is easier to understand how the methods are used by examining papers showing how it has been used.
+The papers have been chosen so that the teaching team has been involved in analysing and writing them and we are happy to discuss any details in these and show how computers were used in write-up of this process.
+
+* [Nelimarkka, M., Laaksonen, S., Tuokko, M., & Valkonen, T. (2020). Platformed Interactions: How Social Media Platforms Relate to Candidate–Constituent Interaction During Finnish 2015 Election Campaigning. Social Media + Society, 6(2)](https://doi.org/10.1177/2056305120903856)
+
+## Computational tools for open coding approach
+
+* [DiscoveryText](/closed-coding/discoverytext)
