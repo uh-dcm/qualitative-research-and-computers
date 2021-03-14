@@ -43,5 +43,9 @@ This is done by selecting the segment requiring annotation and then giving the s
 ### Analysing reliability
 
 When conducting coding from theory-driven lists, it is important to evaluate how well coders agreed with each others.
-There are many ways to evaluate this **inter-rater reliability**, including [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa) and [Krippendorff's alpha](https://en.wikipedia.org/wiki/Krippendorff%27s_alpha).
+There are many ways to evaluate this **inter-rater reliability**, including [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa).
 DiscoveryText allows you to automatically calculate such evaluations through validating datasets.
+
+### Automating content classification
+
+DiscoveryText provides support for automating content classification work.
