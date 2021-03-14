@@ -1,6 +1,6 @@
 # Closed coding
 
-Closed coding refers to qualitative research practice where material is coded with a pre-defined code list.
+Closed coding refers to qualitative research practice where material is coded with a pre-defined code book.
 Thus, it is a deductive approach, where the aim is to use theory-informed approaches to understand the data.
 
 Closed coding is most familiar from (quantitative) **content analysis*.
@@ -18,6 +18,8 @@ However, in its theory-driven nature, scholars often seek to ensure that these i
 To quantify these, scholars can compute **inter-rater reliability score**, including [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa).
 Different scholars and fields have a bit different ideas on expected values, but usually for Cohen's kappa > 0.60 is seen acceptable and > 0.8 good.
 
+If the validity does not achieve these threshold values, it is common to discuss and educate people doing classification work.
+Furthermore, the code book can be supplemented with examples and further elaboration of these what codes mean and how they should be applied.
 
 ## Example papers
 
