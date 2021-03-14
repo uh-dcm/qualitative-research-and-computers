@@ -9,7 +9,13 @@ nav:
     - Introduction: closed-coding/index.md
     - DiscoveryText: closed-coding/discoverytext.md
 
-theme: material
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.png
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
