@@ -7,7 +7,7 @@ nav:
     - Atlas.TI: open-coding/atlasti.md
   - Closed coding:
     - Introduction: closed-coding/index.md
-    - DiscoveryText: closed-coding/discoverytext.md
+    - DiscoverText: closed-coding/discovertext.md
 
 theme:
   name: material

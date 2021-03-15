@@ -1,13 +1,13 @@
-# DiscoveryText
+# DiscoverText
 
-DiscoveryText is an updated version of the extensively popular Coding Analysis Toolkit (CAT), allowing open-ended textual data
+DiscoverText is an updated version of the extensively popular Coding Analysis Toolkit (CAT), allowing open-ended textual data
 
-## Starting to use DiscoveryText
+## Starting to use DiscoverText
 
 ### Installing the software
 
-DiscoveryText is used through a [web interface](https://discovertext.com/).
-We have an educational license within the context of this class, allowing you to trial the software.
+DiscoverText is used through a [web interface](https://discovertext.com/).
+We have an educational license you may use within the context of this class, allowing you to trial the software.
 Please contact me at grp-dcm-teaching@helsinki.fi to enable the license for you.
 
 ### Setting up a project
@@ -17,7 +17,7 @@ One must create a project before data can be imported.
 
 ### Importing documents.
 
-DiscoveryText allows importing several documents (as text files), or a spreadsheet collection of data.
+DiscoverText allows importing several documents (as text files), or a spreadsheet collection of data.
 These collections are known as **Data Archives**, from which you can created **Buckets** and **Data sets** which are subsets of filtered data.
 Data sets are needed in the coding stage.
 
@@ -27,7 +27,7 @@ Data sets are needed in the coding stage.
 
 ### Create codes
 
-in DiscoveryText codes must be predefined.
+in DiscoverText codes must be predefined.
 These are known as **code sets**.
 A code set is a list of codes, each having a specific analytical **code name**, a **code description** to define what the code means and a short-hand **key** which allows the coder to use the code quickly via the keyboard.
 The coder is only able to use the codes defined on a code set.
@@ -44,9 +44,9 @@ This is done by selecting the segment requiring annotation and then giving the s
 
 When conducting coding from theory-driven lists, it is important to evaluate how well coders agreed with each others.
 There are many ways to evaluate this **inter-rater reliability**, including [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa).
-DiscoveryText allows you to automatically calculate such evaluations through validating datasets.
+DiscoverText allows you to automatically calculate such evaluations through validating datasets.
 
 ### Automating content classification
 
-DiscoveryText provides support for automating content classification work.
+DiscoverText provides support for automating content classification work.
 We will cover some aspects of it in the automation module.
