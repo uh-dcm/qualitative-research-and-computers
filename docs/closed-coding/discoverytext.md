@@ -49,3 +49,4 @@ DiscoveryText allows you to automatically calculate such evaluations through val
 ### Automating content classification
 
 DiscoveryText provides support for automating content classification work.
+We will cover some aspects of it in the automation module.
