@@ -8,7 +8,7 @@ DiscoverText is an updated version of the extensively popular Coding Analysis To
 
 DiscoverText is used through a [web interface](https://discovertext.com/).
 We have an educational license you may use within the context of this class, allowing you to trial the software.
-Please contact me at grp-dcm-teaching@helsinki.fi to enable the license for you.
+You will recieve the license to your email during the week starting on March 15th.
 
 ### Setting up a project
 
