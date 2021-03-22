@@ -5,6 +5,7 @@ nav:
   - Open coding:
     - Introduction: open-coding/index.md
     - Atlas.TI: open-coding/atlasti.md
+    - Atlas.TI 8 (old version): open-coding/atlasti_8.md
   - Closed coding:
     - Introduction: closed-coding/index.md
     - DiscoverText: closed-coding/discovertext.md
