@@ -1,4 +1,4 @@
-# ATLAS.ti
+# ATLAS.ti 8
 
 ATLAS.ti is one of many software available to assist with qualitative analysis.
 It specially excels in open coding, i.e., attaching interpretations and concepts to the material during the analysis stage.
@@ -9,6 +9,7 @@ It specially excels in open coding, i.e., attaching interpretations and concepts
 
 This is a legacy software and it is no longer supported by University of Helsinki.
 Please see [guidelines how to install most recent ATLAS.ti](atlasti).
+ATLAS.ti 9 will automatically import your data from ATLAS.ti 8.
 
 ### Setting up the project
 
