@@ -117,8 +117,8 @@ The essential use for quotation manager is to have an easy access to your resear
 
 (Video still at ATLAS.ti 8 version, but works fairly similarly on 9.)
 
-Quotation manager allows to export (create an report) of all quotations under a single code.
-As the name report suggests, this can be helpful to report the data.
+Quotation manager allows to **create an report** of all quotations under a single code.
+This can be helpful to report the data and provide summarisation of the dat and analysis.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JlMzVVNKH7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
