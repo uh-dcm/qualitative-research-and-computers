@@ -46,6 +46,24 @@ However, do note that any changes made to the documents in ATLAS.ti (fixing typo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7wrjezJ6bzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Exporting project
+
+It is possible to export ATLAS.ti project, which allows you to share documents, codes and memos with other people or store it for archival.
+
+For Windows, open the File-menu and choose Export.
+Click Export Project Bundle.
+
+![Choose "File" from the menu](/assets/images/win_export_1.png)
+
+![From the menu, choose "Export" and "Export Project Bundle"](/assets/images/win_export_2.png)
+
+For Mac, open the Project menu and choose Export.
+Click Project.
+
+![Choose "Project" from the menu](/assets/images/mac_export_1.png)
+
+![From the menu, choose "Export" and "Project"](/assets/images/mac_export_2.png)
+
 ## Doing data analysis
 
 ### Coding materials
