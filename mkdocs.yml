@@ -4,11 +4,15 @@ nav:
   - Home: index.md
   - Open coding:
     - Introduction: open-coding/index.md
-    - Atlas.TI: open-coding/atlasti.md
-    - Atlas.TI 8 (old version): open-coding/atlasti_8.md
+    - ATLAS.ti open-coding/atlasti.md
+    - ATLAS.ti 8 (old version): open-coding/atlasti_8.md
   - Closed coding:
     - Introduction: closed-coding/index.md
     - DiscoverText: closed-coding/discovertext.md
+  - Beyond text:
+    - Introduction: beyond-text/index.md
+    - ATLAS.ti for images: beyond-text/atlasti.md
+    - Image recongition services: beyond-text/imagerecognition.md
 
 theme:
   name: material
