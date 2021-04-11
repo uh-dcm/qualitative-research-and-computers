@@ -1,6 +1,10 @@
 # Beyond text
 
-META META
+Social scientists study content which is not textual, such images and video content.
+There are extensive approaches to work with such visual materials ([Margolis & Pauwels, 2020](https://methods.sagepub.com/book/the-sage-handbook-of-visual-research-methods-2e), [Banks, 2015](https://methods.sagepub.com/book/visual-methods-in-social-research-2e)), all of which can be supported with computer software tools.
+(The exact choice of the research approach and thus methodology is highly dependent on your research question.)
+
+We will briefly examine how computing tools support both [manual annotation](atlasti) as well as [automatic content extraction](imagerecognition) from images and videos.
 
 ## Example papers
 
