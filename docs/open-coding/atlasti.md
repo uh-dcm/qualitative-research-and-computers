@@ -53,16 +53,16 @@ It is possible to export ATLAS.ti project, which allows you to share documents, 
 For Windows, open the File-menu and choose Export.
 Click Export Project Bundle.
 
-![Choose "File" from the menu](../assets/images/win_export_1.png)
+![Choose "File" from the menu](./assets/images/win_export_1.png)
 
-![From the menu, choose "Export" and "Export Project Bundle"](../assets/images/win_export_2.png)
+![From the menu, choose "Export" and "Export Project Bundle"](./assets/images/win_export_2.png)
 
 For Mac, open the Project menu and choose Export.
 Click Project.
 
-![Choose "Project" from the menu](../assets/images/mac_export_1.png)
+![Choose "Project" from the menu](./assets/images/mac_export_1.png)
 
-![From the menu, choose "Export" and "Project"](../assets/images/mac_export_2.png)
+![From the menu, choose "Export" and "Project"](./assets/images/mac_export_2.png)
 
 ## Doing data analysis
 
