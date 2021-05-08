@@ -14,7 +14,7 @@
     
     
       
-        <title>Introduction - Qualitative Research and Computers</title>
+        <title>Automating qualitative analysis work - Qualitative Research and Computers</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#open-coding" class="md-skip">
+        <a href="#automating-qualitative-analysis-work" class="md-skip">
           Skip to content
         </a>
       
@@ -90,7 +90,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Automating qualitative analysis work
             
           </span>
         </div>
@@ -152,14 +152,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
       <label class="md-nav__link" for="__nav_2">
         Open coding
@@ -175,86 +173,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Introduction
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../open-coding/" class="md-nav__link">
         Introduction
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#open-coding-a-summary" class="md-nav__link">
-    Open coding: a summary
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-a-good-code" class="md-nav__link">
-    What is a good code?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-about-validity" class="md-nav__link">
-    What about validity?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example-papers" class="md-nav__link">
-    Example papers
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#computational-tools-for-open-coding-approach" class="md-nav__link">
-    Computational tools for open coding approach
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#additional-reading" class="md-nav__link">
-    Additional reading
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -264,7 +187,7 @@
   
   
     <li class="md-nav__item">
-      <a href="atlasti/" class="md-nav__link">
+      <a href="../open-coding/atlasti/" class="md-nav__link">
         ATLAS.ti
       </a>
     </li>
@@ -276,7 +199,7 @@
   
   
     <li class="md-nav__item">
-      <a href="atlasti_8/" class="md-nav__link">
+      <a href="../open-coding/atlasti_8/" class="md-nav__link">
         ATLAS.ti 8 (old version)
       </a>
     </li>
@@ -435,22 +358,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#open-coding-a-summary" class="md-nav__link">
-    Open coding: a summary
+  <a href="#text-to-data" class="md-nav__link">
+    Text to data
+  </a>
+  
+    <nav class="md-nav" aria-label="Text to data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finnish-language-in-text-preprocessing" class="md-nav__link">
+    Finnish language in text preprocessing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classifying-based-on-examples" class="md-nav__link">
+    Classifying based on examples
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-is-a-good-code" class="md-nav__link">
-    What is a good code?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-about-validity" class="md-nav__link">
-    What about validity?
+  <a href="#data-driven-classifications" class="md-nav__link">
+    Data-driven classifications
   </a>
   
 </li>
@@ -463,15 +399,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#computational-tools-for-open-coding-approach" class="md-nav__link">
-    Computational tools for open coding approach
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#additional-reading" class="md-nav__link">
-    Additional reading
+  <a href="#computational-tools" class="md-nav__link">
+    Computational tools
   </a>
   
 </li>
@@ -489,57 +418,79 @@
               
                 
                 
-                <h1 id="open-coding">Open coding</h1>
-<p>Open coding refers to qualitative research practice where material is coded without a pre-defined code list.
-Instead, potential codes are entered to the material while it is analysed.
-Thus, it is an inductive approach, where the aim is to let the data speak for itself.</p>
-<p>Open coding is most familiar from <strong>grounded theory approach</strong>.
-<a href="https://en.wikipedia.org/wiki/Grounded_theory">Grounded theory</a> is based on examining the material and conducting</p>
-<ol>
-<li>open coding to examine and familiarise with the materials</li>
-<li>axial coding to examine and integrate open codes</li>
-<li>making memos about thoughts and observations throughout open and axial coding</li>
-<li>developing a theoretical model based on axial codes and memos</li>
-</ol>
-<p>Grounded theory is a well-adapted methodological framework, however it has various different ways to approach and use it within a specific research process (<a href="https://www.tandfonline.com/doi/full/10.1057/ejis.2012.48">Birks et al., 2013</a>, <a href="http://journals.sagepub.com/doi/10.1177/1609406915611576">Ralph et al., 2015</a>).</p>
-<p>However, open coding can be used with other kinds of analysis approaches as well if the aim is to work in inductive manner.
-For example, scholars can work with a specific lens when examining the data, such as frames (in <a href="https://en.wikipedia.org/wiki/Frame_analysis">frame analysis</a>).
-Developing a new theory - which is the outcome of the grounded theory process - is sometimes outside the scope of the research question.
-Sometimes it is sufficient to understand the themes emerging from the data, this is done via <a href="https://en.wikipedia.org/wiki/Thematic_analysis">thematic analysis</a>. prefer to focus only on <strong>thematic analysis</strong>.
-How you choose and articulate your methods depends on your specific field of study and established practices within there.
-Qualitative software can support any of these methods to conduct data analysis.</p>
-<h2 id="open-coding-a-summary">Open coding: a summary</h2>
-<p>Grounded theory, thematic analysis, frame analysis and other open coding-based analysis methods each involve their own terminology and conventions how to analyse and present methods.
-However, the methods often involve stages such as</p>
-<ol>
-<li>familiarizing with the material and conducting open coding</li>
-<li>discussing with colleagues about the codes and clarifying their meanings</li>
-<li>conducting additional coding after discussion</li>
-<li>summarising open codes by organising them</li>
-<li>reporting findings</li>
-</ol>
-<h2 id="what-is-a-good-code">What is a good code?</h2>
-<p>This depends on your research interests.
-There are two common pitfalls: either not coding data sufficiently or then conducting too fine-grained analysis, where the coding does not summarise data.
-While it is impossible to provide a universal guideline for this, I would be scared if a sentence had several overlapping codes.
-I would also be scared if most paragraphs had no codes.</p>
-<h2 id="what-about-validity">What about validity?</h2>
-<p>Open coding is always based on interpretations.
-Depending on how approach your research problem, different approaches may be helpful to be incorporated into the analysis process, such as being reflexive about the analysis process, seeking to find evidence to disconfirm observations or involving other researchers in the process (for more, see <a href="http://www.tandfonline.com/doi/abs/10.1207/s15430421tip3903_2">Creswell &amp; Miller, 2000</a>).</p>
+                <h1 id="automating-qualitative-analysis-work">Automating qualitative analysis work</h1>
+<p>A whole movement of social scientists seek to engage <em>text as data</em> (<a href="https://doi.org/10.1093/pan/mps028">Grimmer &amp; Stewart, 2013</a>): approach text in a form of quantitative asset.
+Various computer-based tools can be used in this, including machine learning, network analysis or corpus linguistics tools.
+Broadly speaking, these all all methods for <strong>text mining</strong> (for a more extensive exploration of these methods, see <a href="https://methods.sagepub.com/book/an-introduction-to-text-mining">Ignatow &amp; Michalcea, 2018</a>), we will below explore fundamental ideas related to quantifying text and analysing it using automated tools.</p>
+<h2 id="text-to-data">Text to data</h2>
+<p>Humans read text as words, sentences and paragraphs.
+Computers cannot similarly read and understand such content.
+Instead, computers can <em>count</em> frequencies of certain words (or word combinations, or words in certain context) and in this manner approach text as numerical data.
+For example,</p>
+<blockquote>
+<p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, <code>and what is the use of a book,' thought Alice</code>without pictures or conversations?'
+(from <em>Alice's Adventures in Wonderland</em>, by Lewis Carroll)</p>
+</blockquote>
+<p>could be transformed into data by counting frequencies of words on the quote</p>
+<table>
+<thead>
+<tr>
+<th>word</th>
+<th>frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Alice</td>
+<td>2</td>
+</tr>
+<tr>
+<td>had</td>
+<td>2</td>
+</tr>
+<tr>
+<td>having</td>
+<td>1</td>
+</tr>
+<tr>
+<td>without</td>
+<td>1</td>
+</tr>
+<tr>
+<td>of</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p>However, already this example shows the challenge of transforming text to data:
+words such as <code>a</code> or <code>of</code> do not convey clear meaning,
+and words such <code>having</code> and <code>had</code> clearly have the same meaning but due to grammar rules, they are weitten in different format.</p>
+<p>Therefore, most automated analysis process start with preprocessing of text data, including steps such as
+* removal of words without clear meaning for analysis, such as <code>a</code>, <code>an',</code>the<code>,</code>in<code>,</code>of<code>etc. Commonly such words are known as stopwords.
+* transforming the words into their base forms (</code>had<code>and</code>having<code>would be</code>have<code>,</code>cats<code>,</code>cat<code>would be</code>cat`) using stemmer or lemmatization
+* transforming content into lower case
+* removal of punctuation</p>
+<p>However, there currently is no stable process which must be applied.
+Rather, it has been shown that different preprocessing choices lead to sligtly different outcomes ((Denny &amp; Spirling, 2018)[https://doi.org/10.1017/pan.2017.44], (Schofield &amp; Mimno, 2016)[https://direct.mit.edu/tacl/article/43370]).
+Therefore, for now I suggest that you try to examine how text preprocessing is described in your own field and wait for further methodological research in this area.</p>
+<h3 id="finnish-language-in-text-preprocessing">Finnish language in text preprocessing</h3>
+<p>There are various good tools fot text preprocessing in English language.
+Finnish language works differently: for example, instead of using prefixes (<code>from a house</code>, <code>in a house</code>) we use postfixes attached to the work (<code>talolta</code>, <code>talossa</code>).
+Such words are not usually well processed by most tools, tuned for English.
+Instead, it is recommended to use spesific tools more suitable for Finnish language.</p>
+<h2 id="classifying-based-on-examples">Classifying based on examples</h2>
+<h2 id="data-driven-classifications">Data-driven classifications</h2>
 <h2 id="example-papers">Example papers</h2>
-<p>Sometimes it is easier to understand how the methods are used by examining papers showing how it has been used.
-The papers have been chosen so that the teaching team has been involved in analysing and writing them and we are happy to discuss any details in these and show how computers were used in write-up of this process.</p>
+<p>Sometimes it is easier to understand how the methods are used by examining papers showing how it has been used. The papers have been chosen so that the teaching team has been involved in analysing and writing them and we are happy to discuss any details in these and show how computers were used in write-up of this process.</p>
 <ul>
-<li><a href="https://doi.org/10.1145/3415175">Grön, K., &amp; Nelimarkka, M. (2020). Party Politics, Values and the Design of Social Media Services. Proceedings of the ACM on Human-Computer Interaction, 4(CSCW2), 1–29.</a></li>
+<li>(Toivanen, P., Nelimarkka, M., &amp; Valaskivi, K. (2021). Remediation in the hybrid media environment: Understanding countermedia in context. New Media &amp; Society)[https://doi.org/10.1177/1461444821992701] (supervised machine learning)</li>
+<li>(Pantti, M., Nelimarkka, M., Nikunen, K., &amp; Titley, G. (2019). The meanings of racism: Public discourses about racism in Finnish news media and online discussion forums. European Journal of Communication, 34(5), 503–519.)[https://doi.org/10.1177/0267323119874253]</li>
 </ul>
-<h2 id="computational-tools-for-open-coding-approach">Computational tools for open coding approach</h2>
-<ul>
-<li><a href="atlasti">Atlas.TI</a></li>
-</ul>
-<h2 id="additional-reading">Additional reading</h2>
-<ul>
-<li><a href="http://methods.sagepub.com/book/using-software-in-qualitative-research-2e">Silver &amp; Lewins: Using Software in Qualitative Research: A Step-by-Step Guide</a></li>
-</ul>
+<h2 id="computational-tools">Computational tools</h2>
                 
               
               
