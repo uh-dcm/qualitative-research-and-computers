@@ -470,8 +470,8 @@ For example,</p>
 words such as <code>a</code> or <code>of</code> do not convey clear meaning,
 and words such <code>having</code> and <code>had</code> clearly have the same meaning but due to grammar rules, they are weitten in different format.</p>
 <p>Therefore, most automated analysis process start with preprocessing of text data, including steps such as
-* removal of words without clear meaning for analysis, such as <code>a</code>, <code>an',</code>the<code>,</code>in<code>,</code>of<code>etc. Commonly such words are known as stopwords.
-* transforming the words into their base forms (</code>had<code>and</code>having<code>would be</code>have<code>,</code>cats<code>,</code>cat<code>would be</code>cat`) using stemmer or lemmatization
+* removal of words without clear meaning for analysis, such as <code>a</code>, <code>an</code>, <code>the</code>, <code>in</code>, <code>of</code> etc. Commonly such words are known as stopwords.
+* transforming the words into their base forms (<code>had</code> and <code>having</code> would be <code>have</code>, <code>cats</code>, <code>cat</code> would be <code>cat</code>) using stemmer or lemmatization
 * transforming content into lower case
 * removal of punctuation</p>
 <p>However, there currently is no stable process which must be applied.
@@ -483,7 +483,33 @@ Finnish language works differently: for example, instead of using prefixes (<cod
 Such words are not usually well processed by most tools, tuned for English.
 Instead, it is recommended to use spesific tools more suitable for Finnish language.</p>
 <h2 id="classifying-based-on-examples">Classifying based on examples</h2>
+<p>Computers can be taught to replicate classifications already classified text data.
+This is helpful if the data set is large (such as 10,000s of units of analysis): human labour to classify such data set is large but classifying part of it (such as 500 units) and then using computing to power other classifications is doable.
+This process is known as <strong>supervised machine learning</strong>: the computer uses statistical analysis to determine how much different words (or, in machine learning terminology: <strong>features</strong>) predict each class.
+Note that the process involves humans only at the level of choosing category for each unit of analysis: the exact mechanism is left for computers to determine.
+This may allow some less obvious connections to emerge compared with researcher-driven keyword selection.</p>
+<p>There are various statistical approaches to conduct supervised machine learning (also known as algorithms): support vector machines, neural networks, or Bayesian classifier to name a few.
+It is common to test all of these on the data set and examine which method performs best on these.
+The best performance is measured by comparing the human-classified data (labelled data) to computer classified data using measures of inter-rater reliability, similar to <a href="../closed-coding/#what-about-validity">closed coding process</a>.</p>
+<p>There are some novel practices in supervised machine learning to improve the quality of the classification.
+Most importantly, it is common to split the data to train and test data sets:
+models are trained using the training data set (such as 400 units of the above mentioned 500 units of labelled data) and model evaluation is conducted using data not previously seen but labelled data (the remaining 100 units).
+This process is used to ensure the model is not <strong>overfitting</strong> to the small data set.
+Another approach is to apply cross-folding: instead of running the analysis algorithm once on the 400 units, the algorithm is run several times over subsamples of the 400 units and an "average" model is produced.</p>
 <h2 id="data-driven-classifications">Data-driven classifications</h2>
+<p>Computers can also be used to classify content without examples, but statistically determine which units of analysis appear to be similar based on the words (that is, features representing the unit).
+Therefore, the outcome of statistical analysis is a grouping of units based on the statistical process, somewhat similarly to what emerges in a grounded theory-based classification (more extensively, see <a href="https://doi.org/10.1002/asi.23786">Baumer et al., 2017</a>).
+This process is known as <strong>unsupervised machine learning</strong> and similar to supervised machine learning there are many different approaches for this analysis.</p>
+<p>One of the most commonly used approach for data-driven textual classification is <a href="https://en.wikipedia.org/wiki/Topic_model">topic modelling</a>, especially the Latent Dirichlet allocation (LDA) process to determine topics.
+Topic modelling seeks to group together documents which use similar words, which are often used to help interpretation of these groups.
+For example, topic model could produce a result like this:</p>
+<p>| Topic | Words |
+| 1 | industri, manag, innov, technolog, busi, mobil, close |
+| 2 | learn, machin, data, develop, use, tensorflow, model |
+| 3 | like, just, dont, can, thing, think, one  |</p>
+<p>Researchers give these topics more meaningful names, such as business and innovation for topic 1, data and data science for topic 2 and generic talk for topic 3.
+In an actual analysis process, topic 3 would most likely be removed as it does not seem to add value for most research questions.
+While topics have numbers, they are arbitrary: documents belonging most to topic 1 are not closer to topic 3 or than topic 20.</p>
 <h2 id="example-papers">Example papers</h2>
 <p>Sometimes it is easier to understand how the methods are used by examining papers showing how it has been used. The papers have been chosen so that the teaching team has been involved in analysing and writing them and we are happy to discuss any details in these and show how computers were used in write-up of this process.</p>
 <ul>
