@@ -66,6 +66,23 @@ Another approach is to apply cross-folding: instead of running the analysis algo
 
 ## Data-driven classifications
 
+Computers can also be used to classify content without examples, but statistically determine which units of analysis appear to be similar based on the words (that is, features representing the unit).
+Therefore, the outcome of statistical analysis is a grouping of units based on the statistical process, somewhat similarly to what emerges in a grounded theory-based classification (more extensively, see [Baumer et al., 2017](https://doi.org/10.1002/asi.23786)).
+This process is known as **unsupervised machine learning** and similar to supervised machine learning there are many different approaches for this analysis.
+
+One of the most commonly used approach for data-driven textual classification is [topic modelling](https://en.wikipedia.org/wiki/Topic_model), especially the Latent Dirichlet allocation (LDA) process to determine topics.
+Topic modelling seeks to group together documents which use similar words, which are often used to help interpretation of these groups.
+For example, topic model could produce a result like this:
+
+| Topic | Words |
+| 1 | industri, manag, innov, technolog, busi, mobil, close |
+| 2 | learn, machin, data, develop, use, tensorflow, model |
+| 3 | like, just, dont, can, thing, think, one  |
+
+Researchers give these topics more meaningful names, such as business and innovation for topic 1, data and data science for topic 2 and generic talk for topic 3.
+In an actual analysis process, topic 3 would most likely be removed as it does not seem to add value for most research questions.
+While topics have numbers, they are arbitrary: documents belonging most to topic 1 are not closer to topic 3 or than topic 20.
+
 ## Example papers
 
 Sometimes it is easier to understand how the methods are used by examining papers showing how it has been used. The papers have been chosen so that the teaching team has been involved in analysing and writing them and we are happy to discuss any details in these and show how computers were used in write-up of this process.
