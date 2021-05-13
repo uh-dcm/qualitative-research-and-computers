@@ -75,6 +75,7 @@ Topic modelling seeks to group together documents which use similar words, which
 For example, topic model could produce a result like this:
 
 | Topic | Words |
+| - | - |
 | 1 | industri, manag, innov, technolog, busi, mobil, close |
 | 2 | learn, machin, data, develop, use, tensorflow, model |
 | 3 | like, just, dont, can, thing, think, one  |
