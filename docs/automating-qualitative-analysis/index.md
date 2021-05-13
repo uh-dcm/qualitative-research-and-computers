@@ -48,13 +48,13 @@ Instead, it is recommended to use spesific tools more suitable for Finnish langu
 
 ## Classifying based on examples
 
-Computers can be teach to replicate classifications already classified text data.
-This is helpful if the data set is large (such as 10,000s of units of analysis): human labour to classify such data set is large, but classifying part of it (such as 500 units) and then using computing to power other classifications is doable.
+Computers can be taught to replicate classifications already classified text data.
+This is helpful if the data set is large (such as 10,000s of units of analysis): human labour to classify such data set is large but classifying part of it (such as 500 units) and then using computing to power other classifications is doable.
 This process is known as **supervised machine learning**: the computer uses statistical analysis to determine how much different words (or, in machine learning terminology: **features**) predict each class.
 Note that the process involves humans only at the level of choosing category for each unit of analysis: the exact mechanism is left for computers to determine.
 This may allow some less obvious connections to emerge compared with researcher-driven keyword selection.
 
-There are various statistical approaches to conduct supervised machine learning (also known as algorithms): support vector machines, neural networks or Bayesian classifier to name a few.
+There are various statistical approaches to conduct supervised machine learning (also known as algorithms): support vector machines, neural networks, or Bayesian classifier to name a few.
 It is common to test all of these on the data set and examine which method performs best on these.
 The best performance is measured by comparing the human-classified data (labelled data) to computer classified data using measures of inter-rater reliability, similar to [closed coding process](../closed-coding/#what-about-validity).
 
@@ -62,7 +62,7 @@ There are some novel practices in supervised machine learning to improve the qua
 Most importantly, it is common to split the data to train and test data sets:
 models are trained using the training data set (such as 400 units of the above mentioned 500 units of labelled data) and model evaluation is conducted using data not previously seen but labelled data (the remaining 100 units).
 This process is used to ensure the model is not **overfitting** to the small data set.
-Another approach is to apply cross-folding: instead of running the analysis algorithm once on the 400 units, the algorithm is run several times over subsamples of the 400 units and an "avarage" model is produced.
+Another approach is to apply cross-folding: instead of running the analysis algorithm once on the 400 units, the algorithm is run several times over subsamples of the 400 units and an "average" model is produced.
 
 ## Data-driven classifications
 
