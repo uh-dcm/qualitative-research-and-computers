@@ -36,7 +36,7 @@ Therefore, most automated analysis process start with preprocessing of text data
 * removal of punctuation
 
 However, there currently is no stable process which must be applied.
-Rather, it has been shown that different preprocessing choices lead to sligtly different outcomes ((Denny & Spirling, 2018)[https://doi.org/10.1017/pan.2017.44], (Schofield & Mimno, 2016)[https://direct.mit.edu/tacl/article/43370]).
+Rather, it has been shown that different preprocessing choices lead to sligtly different outcomes ([Denny & Spirling, 2018](https://doi.org/10.1017/pan.2017.44), [Schofield & Mimno, 2016](https://direct.mit.edu/tacl/article/43370)).
 Therefore, for now I suggest that you try to examine how text preprocessing is described in your own field and wait for further methodological research in this area.
 
 ### Finnish language in text preprocessing
@@ -88,7 +88,7 @@ While topics have numbers, they are arbitrary: documents belonging most to topic
 
 Sometimes it is easier to understand how the methods are used by examining papers showing how it has been used. The papers have been chosen so that the teaching team has been involved in analysing and writing them and we are happy to discuss any details in these and show how computers were used in write-up of this process.
 
-* (Toivanen, P., Nelimarkka, M., & Valaskivi, K. (2021). Remediation in the hybrid media environment: Understanding countermedia in context. New Media & Society)[https://doi.org/10.1177/1461444821992701] (supervised machine learning)
-* (Pantti, M., Nelimarkka, M., Nikunen, K., & Titley, G. (2019). The meanings of racism: Public discourses about racism in Finnish news media and online discussion forums. European Journal of Communication, 34(5), 503–519.)[https://doi.org/10.1177/0267323119874253]
+* [Toivanen, P., Nelimarkka, M., & Valaskivi, K. (2021). Remediation in the hybrid media environment: Understanding countermedia in context. New Media & Society](https://doi.org/10.1177/1461444821992701) (supervised machine learning)
+* [Pantti, M., Nelimarkka, M., Nikunen, K., & Titley, G. (2019). The meanings of racism: Public discourses about racism in Finnish news media and online discussion forums. European Journal of Communication, 34(5), 503–519.](https://doi.org/10.1177/0267323119874253)
 
 ## Computational tools
