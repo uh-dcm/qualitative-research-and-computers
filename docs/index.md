@@ -17,7 +17,7 @@ For example, grounded theory and thematic analysis often apply open coding appro
 Common software to conduct this kind of work is Atlas.TI and NVivo.
 * [Closed coding](closed-coding/) is theory-driven analysis practice, pre-existing theory is used to analyse data.
 For example, content analysis often applies closed coding approach.
-* Audiovisual material module focuses on opportunities to use software tools for images, video and audio data.
+* [Audiovisual material module](beyond-text/) focuses on opportunities to use software tools for images, video and audio data.
 Module is under development is is released during early April.
-* Automated classification module focuses on opportunities to use software tools to automate qualitative data analysis process.
+* [Data science module](data-science/) focuses on opportunities to use software tools to automate qualitative data analysis process.
 Module is under development is is released during mid April.

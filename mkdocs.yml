@@ -13,6 +13,9 @@ nav:
     - Introduction: beyond-text/index.md
     - ATLAS.ti for images: beyond-text/atlasti.md
     - Image recongition services: beyond-text/imagerecognition.md
+  - Data science:
+    - Introduction: data-science/index.md
+    - RapidMiner: data-science/rapidminder.md
 
 theme:
   name: material
