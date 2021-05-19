@@ -92,3 +92,5 @@ Sometimes it is easier to understand how the methods are used by examining paper
 * [Pantti, M., Nelimarkka, M., Nikunen, K., & Titley, G. (2019). The meanings of racism: Public discourses about racism in Finnish news media and online discussion forums. European Journal of Communication, 34(5), 503–519.](https://doi.org/10.1177/0267323119874253)
 
 ## Computational tools
+
+* [RapidMiner](rapidminer) is a click-through user interface which does not require programming skilss.
