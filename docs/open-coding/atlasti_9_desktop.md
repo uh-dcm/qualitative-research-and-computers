@@ -7,8 +7,6 @@ It specially excels in open coding, i.e., attaching interpretations and concepts
 
 ### Installing the software
 
-This is a legacy software and it is no longer supported by University of Helsinki.
-
 Affiliation | Operating system | Who operates the computer | Installation guide
 - | - | - | -
 University of Helsinki | Mac | University of Helsinki | Install from [Managed Software Center](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software/installation-universitys-mac-software).
