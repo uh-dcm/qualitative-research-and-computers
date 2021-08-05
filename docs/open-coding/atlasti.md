@@ -7,8 +7,6 @@ It specially excels in open coding, i.e., attaching interpretations and concepts
 
 ### Installing the software
 
-This is a legacy software and it is no longer supported by University of Helsinki.
-
 Affiliation | Operating system | Who operates the computer | Installation guide
 - | - | - | -
 University of Helsinki | Mac | University of Helsinki | Install from [Managed Software Center](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software/installation-universitys-mac-software).
@@ -28,43 +26,35 @@ However, ATLAS.ti Cloud is limited in file formats and analysis tools:
 only textual data (`.docx`, `.docx`) and `.pdf` files is supported
 and some more advanced features, such as automated detection of names, are not available on the cloud version.
 
+In this material we use ATLAS.ti 9 cloud version in setting up and coding the project and use ATLAS.ti 9 Desktop version for analysis.
+You can follow [desktop only-version](atlasti_9_desktop) of this document if you cannot use the cloud version.
+
 ### Setting up the project
 
-After starting ATLAS.ti, you first need to create a new project.
+After you have logged into [ATLAS.ti Cloud](https://cloud.atlasti.com/),  you first need to create a new project.
 Project corresponds to a set of materials related to your research project, for example all interview materials for your collection.
 Ideally, this corresponds to a cohesive set of materials used within a single paper or single documents.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7wrjezJ6bzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KjUhzUqz2SM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Importing documents
 
 After creating the project, you need to import your data into the project.
 In ATLAS.ti, data is organised into documents corresponding a single piece _unit of data_, such as an individual interview.
-Data can be in various formats, such as in Microsoft Word (`.docx`), plain text format (`.txt`), rich text format (`.rtf`) or even in Portable Document Files (`.pdf`).
+For ATLAS.ti Cloud, you can only upload textual data (`.docx`, `.docx`) and `.pdf`.
+For data in other document formats, you need to use [desktop version](atlasti_9_desktop) for these tasks.
 For interview materials, I recommend using Microsoft Word as these files can be edited e.g. for typos within ATLAS.ti.
 However, do note that any changes made to the documents in ATLAS.ti (fixing typos, anonymisation, coding) is not reflected back to the raw data files.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7wrjezJ6bzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qtlmxADwThw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Exporting project
 
-It is possible to export ATLAS.ti project, which allows you to share documents, codes and memos with other people or store it for archival.
+It is possible to export ATLAS.ti Cloud project, which allows you to continue to work with the data and analysis on Desktop version of ATLAS.ti or store it for archival.
 
-For Windows, open the File-menu and choose Export.
-Click Export Project Bundle.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3qAU71qM4-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![Choose "File" from the menu](../assets/win_export_1.png)
-
-![From the menu, choose "Export" and "Export Project Bundle"](../assets/win_export_2.png)
-
-For Mac, open the Project menu and choose Export.
-Click Project.
-
-![Choose "Project" from the menu](../assets/mac_export_1.png)
-
-![From the menu, choose "Export" and "Project"](../assets/mac_export_2.png)
-
-## Doing data analysis
+## Working with data
 
 ### Coding materials
 
@@ -72,21 +62,39 @@ Coding takes place through selecting segments of the text to create an quotation
 **Quotations** are segments of texts connected to one or more codes.
 When initially familiarising yourself with the data, just adding quotations and familiarising yourself with the data is sufficient.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vTLbxpUKhMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gRXSnmX56zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 After initial familiarisation with the topic, one moves to add **codes** to quotations.
 These codes summarise the conceptual observation, they are later used to further examine the data -- they correspond to your analysis.
 The code names are shown on the right margin of the text, next to the quotations they are related to.
 Quotations and codes can be overlap or be inside other quotations if that makes sense.
-There are two ways to code: **open coding** allows you to enter the name of the code manually or choose it from previously used codes, while **in-vivo code** corresponds the selected quotation.
-For example, certain key phrases used in the data may be better to reflect using in-vivo coding, but often open coding allows more analytical considerations.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/43C0d0uu_yU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It is possible to create codes automatically: use certain key phrases and automatically code sentences or paragraphs where they are used.
 (This works well in English, but not that well in Finnish.)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kaGsmuSVA0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Managing and organising codes
+
+During research project, many codes emerge.
+At least for me, some of them are typos which need to be edited.
+Some of them may be the same conceptual idea, which has evolved during the work.
+Code Manager is the interface to rename, merge, split and even remove codes.
+This helps to maintain the potentially messy list of codes.
+
+Furthermore, it is possible to group codes into wider **code groups** to aggregate data into more conceptual tools.
+Similarly, it is possible to change the colour of codes to help further manage the complexity of the codes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UxUCeOQbTB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Sharing a project
+
+You can share the project with someone else in project settings under `Your team`.
+These new team members can code and analyse the same material you have worked on.
+
+## Doing analysis
+
+**These steps are easier to work on Atlas.TI desktop**
 
 ### Managing and organising codes
 
