@@ -9,6 +9,7 @@ nav:
     - ATLAS.ti 8 (old version): open-coding/atlasti_8.md
   - Closed coding:
     - Introduction: closed-coding/index.md
+    - Spreadsheet: closed-coding/spreadsheet.md
     - DiscoverText: closed-coding/discovertext.md
   - Beyond text:
     - Introduction: beyond-text/index.md
