@@ -14,7 +14,7 @@ For example, a code book might look like:
 | 2 | Sad | Feelings of despair, grief, disappointment, and, sorrow. |
 | 0 | Neutral | Not expressing happy nor sad. |
 
-These codes can be produced either by taking a theory-based classification directly (like above) or by conducting first an [inductively coding](../open-coding) a small portion of the data to define the code book.
+These codes can be produced either by taking a theory-based classification directly (like above) or by conducting first an [inductively coding](../../open-coding) a small portion of the data to define the code book.
 
 ## Coding data on speadsheet
 
