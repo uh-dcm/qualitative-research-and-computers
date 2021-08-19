@@ -5,16 +5,7 @@ It specially excels in open coding, i.e., attaching interpretations and concepts
 
 ## Starting to use ATLAS.ti
 
-### Installing the software
-
-Affiliation | Operating system | Who operates the computer | Installation guide
-- | - | - | -
-University of Helsinki | Mac | University of Helsinki | Install from [Managed Software Center](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software/installation-universitys-mac-software).
-University of Helsinki | Mac | Personal computer | Install from [Download Centre](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software-download-center/new-download-centre).
-University of Helsinki | Windows | University of Helsinki | Install from [Software Center](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software/software-center).
-University of Helsinki | Windows | Personal computer | Install from [Download Centre](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software-download-center/new-download-centre).
-
-### Cloud or desktop software
+### Cloud and desktop software
 
 ATLAS.ti 9 allows one to use both a desktop software and an online version available via [their website](https://cloud.atlasti.com/) similar to Google Docs.
 At this time, they do not automatically synchronise and you are only able to _export_ a cloud based project, not import a project into it.
@@ -28,6 +19,15 @@ and some more advanced features, such as automated detection of names, are not a
 
 In this material we use ATLAS.ti 9 cloud version in setting up and coding the project and use ATLAS.ti 9 Desktop version for analysis.
 You can follow [desktop only-version](atlasti_9_desktop) of this document if you cannot use the cloud version.
+
+### License for the software
+
+Affiliation | Operating system | Who operates the computer | Installation guide
+- | - | - | -
+University of Helsinki | Mac | University of Helsinki | Install from [Managed Software Center](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software/installation-universitys-mac-software).
+University of Helsinki | Mac | Personal computer | Install from [Download Centre](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software-download-center/new-download-centre).
+University of Helsinki | Windows | University of Helsinki | Install from [Software Center](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software/software-center).
+University of Helsinki | Windows | Personal computer | Install from [Download Centre](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software-download-center/new-download-centre).
 
 ### Setting up the project
 
