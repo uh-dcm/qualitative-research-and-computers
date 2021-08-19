@@ -1,6 +1,6 @@
 # ATLAS.ti for audio, video and images
 
-For basic use of ATLAS.ti, such as installation of ATLAS.ti and creatung a new project: see [tutorial on ATLAS.ti as a tool for open coding](../../open-coding/atlasti).
+For basic use of ATLAS.ti, such as installation of ATLAS.ti and creatung a new project: see [tutorial on ATLAS.ti as a tool for open coding](../../open-coding/atlasti_9_desktop).
 
 For video and images, use the desktop software for ATLAS.ti
 
