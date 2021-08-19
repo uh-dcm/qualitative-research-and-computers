@@ -5,6 +5,7 @@ nav:
   - Open coding:
     - Introduction: open-coding/index.md
     - ATLAS.ti: open-coding/atlasti.md
+    - ATLAS.ti 9 (dekstop only): open-coding/atlasti_9_desktop.md
     - ATLAS.ti 8 (old version): open-coding/atlasti_8.md
   - Closed coding:
     - Introduction: closed-coding/index.md
