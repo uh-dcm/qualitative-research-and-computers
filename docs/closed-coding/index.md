@@ -3,13 +3,28 @@
 Closed coding refers to qualitative research practice where material is coded with a pre-defined code book.
 Thus, it is a deductive approach, where the aim is to use theory-informed approaches to understand the data.
 
-Closed coding is most familiar from (quantitative) **content analysis*.
+Closed coding is most familiar from (quantitative) **content analysis**.
 [Content analysis](https://en.wikipedia.org/wiki/Content_analysis), where one works by
 
-1. identifying which theoretical measurements are used for the data
-1. coding data using the said theoretical approaches
+1. identifying which categories are used for the data
+1. coding data using the said categories
 1. examining the validity of coding process
 1. conducting comparison across the data sets
+
+## The codebook
+
+The categories are described on a codebook.
+Code book provides a list of codes which can be used to classify each unit of the data, with a clear definition and potentially examples which help to understand the defnition.
+
+| Code | Definition |
+|---|---|
+| Happy | Expression of joy, fun or pleasant experiences. |
+| Sad | Feelings of despair, grief, disappointment, and, sorrow. |
+| Neutral | Not expressing happy nor sad. |
+
+With this codebook each unit of the data must be assigned to happy, sad or neutral.
+Codebooks can emerge from existing theoretic work defining categories.
+It can also be based on an [inductively coding](../open-coding) a small portion of the data to define the codebook, followed by classification of the remaining data based on the code book.
 
 ## What about validity?
 
