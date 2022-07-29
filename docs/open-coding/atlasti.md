@@ -1,24 +1,24 @@
-# ATLAS.ti 9
+# ATLAS.ti
 
 ATLAS.ti is one of many software available to assist with qualitative analysis.
 It specially excels in open coding, i.e., attaching interpretations and concepts to the material during the analysis stage.
 
 ## Starting to use ATLAS.ti
 
-### Cloud and desktop software
+### Web and desktop software
 
-ATLAS.ti 9 allows one to use both a desktop software and an online version available via [their website](https://cloud.atlasti.com/) similar to Google Docs.
-At this time, they do not automatically synchronise and you are only able to _export_ a cloud based project, not import a project into it.
+ATLAS.t allows one to use both a desktop software and an online version available via [their website](https://web.atlasti.com/) similar to Google Docs.
+At this time, they do not automatically synchronise and you are only able to _export_ a web based project, not import a project into it.
 
-Therefore, you need to choose before doing data analysis if you prefer to work on the cloud-based version or on the desktop version.
+Therefore, you need to choose before doing data analysis if you prefer to work on the web-based version or on the desktop version.
 
-ATLAS.ti Cloud is perfect for collaborative work: you can conduct annotations on the data together, access code manager and quotations and even create shared memos.
-However, ATLAS.ti Cloud is limited in file formats and analysis tools:
+ATLAS.ti Web is perfect for collaborative work: you can conduct annotations on the data together, access code manager and quotations and even create shared memos.
+However, ATLAS.ti Web is limited in file formats and analysis tools:
 only textual data (`.docx`, `.docx`) and `.pdf` files is supported
-and some more advanced features, such as automated detection of names, are not available on the cloud version.
+and some more advanced features, such as automated detection of names, are not available on the web version.
 
-In this material we use ATLAS.ti 9 cloud version in setting up and coding the project and use ATLAS.ti 9 Desktop version for analysis.
-You can follow [desktop only-version](atlasti_9_desktop) of this document if you cannot use the cloud version.
+In this material we use ATLAS.ti web in setting up and coding the project and use ATLAS.ti 22 Desktop version for analysis.
+You can follow [desktop only-version](../atlasti_desktop) of this document if you cannot use the web version.
 
 ### License for the software
 
@@ -31,7 +31,7 @@ University of Helsinki | Windows | Personal computer | Install from [Download Ce
 
 ### Setting up the project
 
-After you have logged into [ATLAS.ti Cloud](https://cloud.atlasti.com/),  you first need to create a new project.
+After you have logged into [ATLAS.ti Web](https://web.atlasti.com/),  you first need to create a new project.
 Project corresponds to a set of materials related to your research project, for example all interview materials for your collection.
 Ideally, this corresponds to a cohesive set of materials used within a single paper or single documents.
 
@@ -41,8 +41,8 @@ Ideally, this corresponds to a cohesive set of materials used within a single pa
 
 After creating the project, you need to import your data into the project.
 In ATLAS.ti, data is organised into documents corresponding a single piece _unit of data_, such as an individual interview.
-For ATLAS.ti Cloud, you can only upload textual data (`.docx`, `.docx`) and `.pdf`.
-For data in other document formats, you need to use [desktop version](atlasti_9_desktop) for these tasks.
+For ATLAS.ti Web, you can only upload textual data (`.docx`, `.docx`) and `.pdf`.
+For data in other document formats, you need to use [desktop version](../atlasti_desktop) for these tasks.
 For interview materials, I recommend using Microsoft Word as these files can be edited e.g. for typos within ATLAS.ti.
 However, do note that any changes made to the documents in ATLAS.ti (fixing typos, anonymisation, coding) is not reflected back to the raw data files.
 
@@ -50,7 +50,7 @@ However, do note that any changes made to the documents in ATLAS.ti (fixing typo
 
 ### Exporting project
 
-It is possible to export ATLAS.ti Cloud project, which allows you to continue to work with the data and analysis on Desktop version of ATLAS.ti or store it for archival.
+It is possible to export ATLAS.ti Web project, which allows you to continue to work with the data and analysis on Desktop version of ATLAS.ti or store it for archival.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3qAU71qM4-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -69,23 +69,22 @@ These codes summarise the conceptual observation, they are later used to further
 The code names are shown on the right margin of the text, next to the quotations they are related to.
 Quotations and codes can be overlap or be inside other quotations if that makes sense.
 
-It is possible to create codes automatically: use certain key phrases and automatically code sentences or paragraphs where they are used.
-(This works well in English, but not that well in Finnish.)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kaGsmuSVA0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The Atlas.TI desktop version provides more advanced coding tools, such as automatic affordance for a code-subcode division and automated detection of sentiment, named entities or core concepts.
+Automated detection works well in English, but not in Finnish.
+For details, see the [desktop manual](../atlasti_desktop#advanced-coding).
 
 ### Managing and organising codes
 
-During research project, many codes emerge.
-At least for me, some of them are typos which need to be edited.
-Some of them may be the same conceptual idea, which has evolved during the work.
-Code Manager is the interface to rename, merge, split and even remove codes.
-This helps to maintain the potentially messy list of codes.
+!!! tip ""
+    I find it easier to conduct more extensive code management and organisation on desktop version (covered later on this document), but the web system does support code management as well.
 
-Furthermore, it is possible to group codes into wider **code groups** to aggregate data into more conceptual tools.
-Similarly, it is possible to change the colour of codes to help further manage the complexity of the codes.
+Sometimes during the coding work you notice a problem with codes: there are typos on code names or two codes should be merged.
+This is done via the **Code Manager**, available on the left side column.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UxUCeOQbTB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+!!! error "Video nyt sync with the UI."
+    Current Atlas.TI Web UI is different from this user interface.
 
 ### Sharing a project
 
@@ -94,56 +93,77 @@ These new team members can code and analyse the same material you have worked on
 
 ## Doing analysis
 
-**These steps are easier to work on Atlas.TI desktop**
+!!! tip ""
+    These steps are easier to do with the Atlas.TI desktop.
+    Therefore, [export your project](#exporting-project).
 
 ### Managing and organising codes
 
 During research project, many codes emerge.
-At least for me, some of them are typos which need to be edited.
 Some of them may be the same conceptual idea, which has evolved during the work.
-Code Manager is the interface to rename, merge, split and even remove codes.
+**Code Manager** is the interface to rename, merge, split and even remove codes.
 This helps to maintain the potentially messy list of codes.
 
-Furthermore, it is possible to group codes into wider **code groups** to aggregate data into more conceptual tools.
-Similarly, it is possible to change the colour of codes to help further manage the complexity of the codes.
+Furthermore, it is possible to define hierarchies of codes.
+Any code with quotes are known as **independent codes**.
+These independent codes may be **subcodes** with the help of **categorical codes**.
+Alternatively, codes can be grouped into **code groups** to aggregate data into more conceptual tools.
+It is also possible to change the colour of codes to help to visualise these codes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fEJD3SNtmBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Alternatively, one can work independent codes directly.
+Before doing work at code level, it is a good idea to save the document and [export it](../atlasti_desktop#exporting-project).
+Sometimes an independent codes contains several different conceptual ideas and there is a need to split codes into smaller units.
+Or sometimes several codes indicate the same conceptual idea and should be merged together.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kZEmEh-DmsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kzq0jdfa9jE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Sometimes codes are overly massive and there is a need to split codes into smaller units.
-ATLAS.ti supports this as well:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kZEmEh-DmsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+!!! error "Video not in sync with the UI."
+    Current Atlas.TI 22 may be  different from this user interface.
 
 ### From codes back to quotation
 
 After the code stage, the analysis moves forward.
 During this time, it is often necessarily to see the quotations for each code.
-To access these, quotation manager is used.
-The essential use for quotation manager is to have an easy access to your research materials based on the codes and code groups established in the prior step.
+To access these, **quotation reader** is used.
+The essential use for quotation reader is to have an easy access to your research materials based on the codes and code groups established in the prior step.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0n4Ii1eAURY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bDUg8pL_H6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-(Video still at ATLAS.ti 8 version, but works fairly similarly on 9.)
-
-Quotation manager allows to **create an report** of all quotations under a single code.
+Quotation reader allows to create reports of all quotations under a single code.
 This can be helpful to report the data and provide summarisation of the dat and analysis.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JlMzVVNKH7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-(Video still at ATLAS.ti 8 version, but works fairly similarly on 9.)
+!!! error "Video not in sync with the UI."
+    Current Atlas.TI 22 may be  different from this user interface.
 
 ### More complex analysis
 
 ATLAS.ti is an versatile environment to work with qualitative data.
-For example, it allows to conduct queries to the data, examining if codes overlap or are near-by each other.
+Our research aims to make sense of emerging patterns from the data, for example identify how codes are often together (occurance) or identify how codes relate to original code.
+
+To help in this, Atlas.TI provides various tools.
+
+It possible to visualise the co-occurances via **Sankey Diagram**, i.e., see which codes relate to which documents or which documets often co-occure.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-3N86QAaQ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Alternative, there is a mechanism to conduct **queries** to the data, examining if codes overlap or are near-by each other.
 Thus, one can examine data using combinations of codes through search interface.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WlN3SwcZKkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-It is also possible to create linkages between codes.
-These can be visualised as a network to help further analysis of them.
-The network view can help to examine how documents, quotations and codes together visually.
+!!! error "Video not in sync with the UI."
+    Current Atlas.TI 22 may be  different from this user interface.
+
+Finally, for theory building some find the **network view** useful
+The network view can help to examine how documents, quotations and codes together visually, but also allows adding more detailed relationships between codes to help on theory forming.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/llelw22MFeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-(Video still at ATLAS.ti 8 version, but works fairly similarly on 9.)
+!!! error "Video not in sync with the UI."
+    Current Atlas.TI 22 may be  different from this user interface.
