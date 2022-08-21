@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.4.1">
     
     
       
@@ -17,7 +17,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.1d29e8d0.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.69437709.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
@@ -38,7 +38,7 @@
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -590,6 +590,60 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#setting-up-label-studio" class="md-nav__link">
+    Setting up Label Studio
+  </a>
+  
+    <nav class="md-nav" aria-label="Setting up Label Studio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-import" class="md-nav__link">
+    Data import
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codebook-setup" class="md-nav__link">
+    Codebook setup
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coding-content-on-label-studio" class="md-nav__link">
+    Coding content on Label Studio
+  </a>
+  
+    <nav class="md-nav" aria-label="Coding content on Label Studio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inviting-new-coders-for-the-project" class="md-nav__link">
+    Inviting new coders for the project.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assessing-intercoder-reliability" class="md-nav__link">
+    Assessing intercoder reliability
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -652,6 +706,68 @@ These services are available without additional charge.</p>
 <li>The site now shows a new link where your freshly installed Label Studio is.
     <img alt="See link" src="../assets/labelstudio_rahti_url.png" /></li>
 </ol>
+<h2 id="setting-up-label-studio">Setting up Label Studio</h2>
+<ol>
+<li>Create an user account on Label Studio instance</li>
+<li>Once logged in, create a new project</li>
+<li>Give the project a name and description</li>
+</ol>
+<h3 id="data-import">Data import</h3>
+<p>Data may contain both entries to be classified and metadata, such as origins or timestamps of entries.
+They are formulated into a spreadsheet, where different columns divide the entries.
+You can use spreadsheet software, such as Microsoft Excel, to produce the file, but you <a href="https://support.microsoft.com/en-us/office/save-a-workbook-to-text-format-txt-or-csv-3e9a9d6c-70da-4255-aa28-fcacf1f081e6">must save the data as a <code>.csv</code> file</a>.</p>
+<p>In case that there is no metadata involved, entries can also be on a text file (<code>.txt</code>, not <code>.docx</code>), where each unit is on its own line.</p>
+<h3 id="codebook-setup">Codebook setup</h3>
+<p>Under the menu "Labelling setup", there are several templates pre-made for content labelling.
+We focus on text classification, so choose from the templates "Natural Language Processing" and from there, "Text Classification".
+(To get an idea of the versatility of Label Studio, you should check out all the templates.)</p>
+<p>The template customisation user interface allows you to define the <strong>codebook</strong>, that is, the alternatives from which the coder must choose the code from.
+New choises can be entered by typing them to the "Add choice" text box and adding them, and codes can be removed by clicking the grey X on the right side of alternatives.
+Note that the choice can be longer than one word, even to the degree of sentences or short paragraph.
+You can see the coding interface on right side Preview panel.</p>
+<p><img alt="See link" src="../assets/labelstudio_template_customisation.png" /></p>
+<p>Label Studio does allow customisation of the labelling interface beyond these templates using its own <a href="https://labelstud.io/tags/">markup language</a>.</p>
+<h2 id="coding-content-on-label-studio">Coding content on Label Studio</h2>
+<p>On the project dashboard, press the blue "Label All Tasks" button to start coding.
+You will be automatically directed to the coding user interface you have customised and imported data is shown unit by unit.</p>
+<div class="admonition warning">
+<p class="admonition-title">By default, Label Studio is open to internet</p>
+<p>On current setup anyone on the internet is able to create new user account as well.
+If you use label studio for research purposes, limit this by adding following environment variables during project setup (we left them out as that stage is already cumbersome). (For details, see <a href="https://labelstud.io/guide/signup.html#Restrict-signup-for-cloud-deployments">user guide</a>.)
+<div class="highlight"><pre><span></span><code>  LABEL_STUDIO_DISABLE_SIGNUP_WITHOUT_LINK=true
+  LABEL_STUDIO_USERNAME=&lt;username&gt;
+  LABEL_STUDIO_PASSWORD=&lt;password&gt;
+</code></pre></div></p>
+<p>Even after limiting access to Label Studio, bear in mind that every user on Label Studio has access to all data and projects on the server.
+This is due to their business model, where more extensive securing of the system is for paying <a href="https://labelstud.io/guide/security.html">enterprise customers only</a>.</p>
+</div>
+<h3 id="inviting-new-coders-for-the-project">Inviting new coders for the project.</h3>
+<p>With closed coding approach, academic researchers want have several coders to code each unit.
+This way, it is possible assess intercoder reliability and evaluate the objectivity (i.e., agreement) between codes.
+As we are using a non-enterprise version of Label Studio, there is no easy way to increase the minimum number of labels per project, it is automatically set as one.</p>
+<p>To overcome this technical limitations, setup a separate project for each coder.
+Follow steps described above to create new projects.</p>
+<p>New coders can create an user account to your label studio and access all projects through the interface.
+Just share them the link to your instance.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>It is also possible manually to enter several codes per unit on Label Studio.
+Open each entry separately and by choosing the user name of the person, you may click "Create Annotation" -- but as you would need to do this manually for each unit, it is highly cumbersome.</p>
+</div>
+<h2 id="assessing-intercoder-reliability">Assessing intercoder reliability</h2>
+<p>To assess the intercoder reliability, export the coded data from all projects (i.e., the project you coded and the project your partner coded).
+Use the CSV format and open them.</p>
+<p>Check that both spreadsheets are in the same order, i.e., units (rows) are the same.
+(These sheets contain the IDs, which allows you to order them.)
+Create a new spreadsheet where you copy assigned codes for each unit, so that each coder has their own column.
+Find and replace data so that codes are transformed into numeric values.
+The final outcome looks like this:</p>
+<p><img alt="Coding data on spreadsheet" src="../assets/spreadsheet_recal2.png" /></p>
+<p>Use software such as <a href="http://dfreelon.org/utils/recalfront/recal2/">ReCal2</a> to calculate the intercoder reliability score for the coded data from this new spreadsheet.
+Remember to code the data per requirements of the software, for ReCal2 remove all headers and the column containing data so that only codes (as numbers) for all coders remain on the spreadsheet.</p>
+
+
+
 
               
             </article>
@@ -688,10 +804,11 @@ These services are available without additional charge.</p>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      <script src="../../assets/javascripts/bundle.9c69f0bc.min.js"></script>
       
     
   </body>
