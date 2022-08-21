@@ -6,13 +6,14 @@ nav:
     - Introduction: open-coding/index.md
     - ATLAS.ti: open-coding/atlasti.md
     - Old materials:
-      - ATLAS.ti 22 (dekstop only): open-coding/atlasti_desktop.md
-      - ATLAS.ti 9 (dekstop only): open-coding/atlasti_9_desktop.md
+      - ATLAS.ti 22 (desktop only): open-coding/atlasti_desktop.md
+      - ATLAS.ti 9 (old version): open-coding/atlasti_9_desktop.md
       - ATLAS.ti 8 (old version): open-coding/atlasti_8.md
   - Closed coding:
     - Introduction: closed-coding/index.md
-    - Spreadsheet: closed-coding/spreadsheet.md
+    - LabelStudio: closed-coding/labelstudio.md
     - Old materials:
+      - Spreadsheet: closed-coding/spreadsheet.md
       - DiscoverText: closed-coding/discovertext.md
   - Beyond text:
     - Introduction: beyond-text/index.md
