@@ -10,6 +10,7 @@ We have created a set of assignments to get familiar with the usual workflow and
 # Registration and course start
 
 Please register to the course in SISU:
+
 * SOST students: enroll to SOST-942 or SOST-943
 * PYAM sutdents: enroll to PYAM-965
 * postdocs, faculty and staff: enrollment details to be shared later
