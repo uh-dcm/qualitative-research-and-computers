@@ -11,7 +11,7 @@ nav:
       - ATLAS.ti 8 (old version): open-coding/atlasti_8.md
   - Closed coding:
     - Introduction: closed-coding/index.md
-    - LabelStudio: closed-coding/labelstudio.md
+    - Label Studio: closed-coding/labelstudio.md
     - Old materials:
       - Spreadsheet: closed-coding/spreadsheet.md
       - DiscoverText: closed-coding/discovertext.md
