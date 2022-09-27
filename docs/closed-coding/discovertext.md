@@ -7,8 +7,7 @@ DiscoverText is an updated version of the extensively popular Coding Analysis To
 ### Installing the software
 
 DiscoverText is used through a [web interface](https://discovertext.com/).
-We have an educational license you may use within the context of this class, allowing you to trial the software.
-To get an educational license, please sent drop an email to grp-dcm-teaching@helsinki.fi from your @helsinki.fi address.
+This is a software as a service with a free trial, after which there is a monthly fee.
 
 ### Setting up a project
 
