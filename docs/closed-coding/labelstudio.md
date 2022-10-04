@@ -16,6 +16,8 @@ These services are available without additional charge.
 ### Setting up user account to CSC
 
 1. Login to [my.csc.fi](https://my.csc.fi/) with your Haka user account. This will create a CSC user account for you.
+1. Create a new project on [my.csc.fi](https://my.csc.fi/myProjects) (academic project, no personal data handling required)
+1. Once the project is created, enable Rahti service from the project page right side panel (see more instructions from [CSC](https://rahti.csc.fi/introduction/access/)).
 1. Login to [rahti.csc.fi](https://rahti.csc.fi:8443/) wuth your newly created CSC user account.
 
 ### Setting up a web service project
