@@ -45,5 +45,6 @@ The papers have been chosen so that the teaching team has been involved in analy
 
 ## Computational tools for open coding approach
 
-* [Spreadsheet software](spreadsheet) - recommended tool
-* [DiscoverText](discovertext)
+* [Label Studio](labelstudio) - course using in this course
+* [Spreadsheet software](spreadsheet) - an alternative tool which you can use on your own projects
+
