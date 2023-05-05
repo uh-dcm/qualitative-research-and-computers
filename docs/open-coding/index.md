@@ -1,36 +1,62 @@
 # Open coding
 
-Open coding refers to qualitative research practice where material is coded without a pre-defined code list.
-Instead, potential codes are entered to the material while it is analysed.
+In qualitative research, analysis often focus on _quotations_, segments of the material which present an insight or information.
+_A code_ is a simplification of the idea or insight.
+Open coding refers to coding the material without a pre-defined code list.
+Instead, potential codes emerge during the analysis process.
 Thus, it is an inductive approach, where the aim is to let the data speak for itself.
 
-Open coding is most familiar from **grounded theory approach**.
-[Grounded theory](https://en.wikipedia.org/wiki/Grounded_theory) is based on examining the material and conducting
-
-1. open coding to examine and familiarise with the materials
-1. axial coding to examine and integrate open codes
-1. making memos about thoughts and observations throughout open and axial coding
-1. developing a theoretical model based on axial codes and memos
-
-Grounded theory is a well-adapted methodological framework, however it has various different ways to approach and use it within a specific research process ([Birks et al., 2013](https://www.tandfonline.com/doi/full/10.1057/ejis.2012.48), [Ralph et al., 2015](http://journals.sagepub.com/doi/10.1177/1609406915611576)).
-
-However, open coding can be used with other kinds of analysis approaches as well if the aim is to work in inductive manner.
-For example, scholars can work with a specific lens when examining the data, such as frames (in [frame analysis](https://en.wikipedia.org/wiki/Frame_analysis)).
-Developing a new theory - which is the outcome of the grounded theory process - is sometimes outside the scope of the research question.
-Sometimes it is sufficient to understand the themes emerging from the data, this is done via [thematic analysis](https://en.wikipedia.org/wiki/Thematic_analysis). prefer to focus only on **thematic analysis**.
-How you choose and articulate your methods depends on your specific field of study and established practices within there.
-Qualitative software can support any of these methods to conduct data analysis.
-
-## Open coding: a summary
-
-Grounded theory, thematic analysis, frame analysis and other open coding-based analysis methods each involve their own terminology and conventions how to analyse and present methods.
-However, the methods often involve stages such as
+There are many genres of open coding:
+[thematic analysis](https://en.wikipedia.org/wiki/Thematic_analysis),
+[grounded theory](https://en.wikipedia.org/wiki/Grounded_theory),
+[frame analysis](https://en.wikipedia.org/wiki/Frame_analysis),
+among others.
+Each involve their own terminology and conventions how to analyse and present methods, sometimes specific to disciplinary practices.
+However, the methods often involve stages such as:
 
 1. familiarizing with the material and conducting open coding
 1. discussing with colleagues about the codes and clarifying their meanings
 1. conducting additional coding after discussion
-1. summarising open codes by organising them
+1. summarizing open codes by organizing and grouping them
 1. reporting findings
+
+How you conduct open coding depends on your specific field of study and its established practices, as well as the methodological choices.
+Computer-assisted qualitative data analysis software can **support** wide range of approaches for this work.
+
+## Thematic analysis
+
+Thematic analysis ([Broun & Clarke, 2006](https://www.tandfonline.com/doi/abs/10.1191/1478088706qp063oa)) seeks to find "something important about the data in relation to the research question, and represents some level of patterned response or meaning within the data set."
+This is fairlys loose: thematic analysis tells something about the material through coding it (which for Broun & Clarke can be inductive or deductive; i.e., open or closed).
+Furthermore, what is a theme can also vary: themes may be more semantic -- i.e., focusing on what and how things are described -- or more latent aspects -- i.e., interpreting what is told.
+Thematic analysis focus on phases:
+
+1. working to transcribe the data and make initial observations
+1. coding the data systematically
+1. seek to combine codes into (potential) themes
+1. reviewing (potential) themes by examining codes, corresponding quotes and even whole material
+1. define and name the themes from the materials
+1. reporting findings
+
+## Grounded theory
+
+Grounded theory (Glaser & Strauss; Glaser; Strauss & Corbin) aims to develop theoretical insights from the material.
+It is based on examining the material and conducting coding of the material in stages:
+
+1. open coding to examine and familiarize with the materials
+1. axial coding to examine, group and merge open codes to categories and concepts
+1. selective coding to scope the research project to chosen concepts and examining the phenomena from these lenses.
+
+The goal is to increase the abstraction level of the analysis during these stages:
+whereas open codes are grounded to the data,
+axial codes, concepts, and categories are more abstract.
+Therefore, the aim of the process is to develop a new theory based on the data.
+
+An important aspect in theory-development is making memos about thoughts and observations throughout the data analysis process.
+These seek to elaborate observations on the meaning of codes and their relationships.
+One goal with these is the ability to trace back how codes, quotations, concepts etc. were developed and what is their intended meaning.
+
+Grounded theory is a well-adapted methodological framework, however it has various different ways to approach and use it within a specific research process ([Birks et al., 2013](https://www.tandfonline.com/doi/full/10.1057/ejis.2012.48), [Ralph et al., 2015](http://journals.sagepub.com/doi/10.1177/1609406915611576)).
+
 
 ## What is a good code?
 
