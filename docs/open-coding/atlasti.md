@@ -5,21 +5,6 @@ It specially excels in open coding, i.e., attaching interpretations and concepts
 
 ## Installation
 
-### Web and desktop software
-
-ATLAS.t allows one to use both a desktop software and an online version available via [their website](https://web.atlasti.com/) similar to Google Docs.
-At this time, they do not automatically synchronise and you are only able to _export_ a web based project, not import a project into it.
-
-Therefore, you need to choose before doing data analysis if you prefer to work on the web-based version or on the desktop version.
-
-ATLAS.ti Web is perfect for collaborative work: you can conduct annotations on the data together, access code manager and quotations and even create shared memos.
-However, ATLAS.ti Web is limited in file formats and analysis tools:
-only textual data (`.docx`, `.docx`) and `.pdf` files is supported
-and some more advanced features, such as automated detection of names, are not available on the web version.
-
-In this material we use ATLAS.ti web in setting up and coding the project and use ATLAS.ti 23 Desktop version for analysis.
-You can follow [desktop only-version](../atlasti_desktop) of this document if you cannot use the web version.
-
 ### Licence for the software
 
 You will need a licence to use Atlas.TI.
@@ -33,7 +18,28 @@ University of Helsinki | Mac | Personal computer | Install from [Download Centre
 University of Helsinki | Windows | University of Helsinki | Install from [Software Center](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software/software-center).
 University of Helsinki | Windows | Personal computer | Install from [Download Centre](https://helpdesk.it.helsinki.fi/en/instructions/computer-and-printing/software-download-center/new-download-centre).
 
+### Web and desktop software
+
+ATLAS.ti allows one to use both a desktop software and an online version available via [their website](https://web.atlasti.com/) similar to Google Docs.
+At this time, they do not automatically synchronise and you are only able to _export_ a web based project, not import a project into it.
+
+Therefore, you need to choose before doing data analysis if you prefer to work on the web-based version or on the desktop version.
+
+ATLAS.ti Web is perfect for collaborative work: you can conduct annotations on the data together, access code manager and quotations and even create shared memos.
+However, ATLAS.ti Web is limited in file formats and analysis tools:
+only textual data (`.docx`, `.docx`) and `.pdf` files is supported
+and some more advanced features, such as automated detection of names, are not available on the web version.
+
+In this material we use ATLAS.ti web in setting up and coding the project and use ATLAS.ti 23 Desktop version for analysis.
+You can follow [desktop only-version](../atlasti_desktop) of this document if you cannot use the web version.
+
 ## Starting to use ATLAS.ti
+
+### Hierarchy of ATLAS.ti
+
+On ATLAS.ti, you work with documents, quotations, codes, code groups (or categorical codes) and memos:
+
+![Hierarchy of objects in ATLAS.ti](./assets/atlas.png)
 
 ### Setting up the project
 
@@ -82,18 +88,31 @@ Quotations and codes can be overlap or be inside other quotations if that makes 
 The ATLAS.ti also provides [tools for automated coding](#automated-coding-approaches) which may aid in the research process.
 Some of these are fairly new developments from natural language processing and machine learning research community, so the academic practices around such coding are still emerging.
 
-### Managing and organising codes
+### Memoing
+
+Memos seek to help you to further reflect your work on the data.
+You can consider them as a diary to help reflect analysis process, observations, or ideas.
+Memos can be linked to quotations.
+(These are not the same as comments, which you can use to describe quotations and codes on the interface.
+This is somewhat confusing at least for me.)
+You work with memos through the **Memo manager** where you can add, edit, delete and group memos.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zDZ0Ra9dQLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Managing and organizing codes
 
 !!! tip ""
-    I find it easier to conduct more extensive code management and organisation on desktop version (covered later on this document), but the web system does support code management as well.
+    I find it easier to conduct more extensive code management and organization on desktop version (covered later on this document), but the web system does support code management as well.
 
 Sometimes during the coding work you notice a problem with codes: there are typos on code names or two codes should be merged.
 This is done via the **Code Manager**, available on the left side column.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UxUCeOQbTB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! error "Video nyt sync with the UI."
-    Current ATLAS.ti Web UI is different from this user interface.
+!!! warning "Video nyt sync with the UI."
+    * Currently there is a sidebar for each code, where you can see all quotations, code group management and ability to comment and edit code names. You can open side bar from this button.
+    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 12.5h-15M8.5 6.5l-6 6 6 6M22.5 2.5v20" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+    * For each code, there is a tickbox on the right side. This allows you to select multiple codes to merge, delete or group them.
 
 ### Sharing a project
 
@@ -114,16 +133,16 @@ Some of them may be the same conceptual idea, which has evolved during the work.
 This helps to maintain the potentially messy list of codes.
 
 Furthermore, it is possible to define hierarchies of codes.
-Any code with quotes are known as **independent codes**.
-These independent codes may be **subcodes** with the help of **categorical codes**.
+There are two ways of achieving this.
+You can have **categorical codes** which organise several (independed, or quotation-connected) codes.
 Alternatively, codes can be grouped into **code groups** to aggregate data into more conceptual tools.
-It is also possible to change the colour of codes to help to visualise these codes.
+It is also possible to change the colour of codes to help to visually examine the data.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fEJD3SNtmBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Alternatively, one can work independent codes directly.
 Before doing work at code level, it is a good idea to save the document and [export it](../atlasti_desktop#exporting-project).
-Sometimes an independent codes contains several different conceptual ideas and there is a need to split codes into smaller units.
+Sometimes an independent codes contains different conceptual ideas and there is a need to split codes into smaller units.
 Or sometimes several codes indicate the same conceptual idea and should be merged together.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kZEmEh-DmsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -148,7 +167,7 @@ This can be helpful to report the data and provide summarisation of the dat and 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JlMzVVNKH7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 !!! error "Video not in sync with the UI."
-    Current ATLAS.ti 23 may be  different from this user interface.
+    Current ATLAS.ti 23 may be different from this user interface.
 
 ## Advanced analysis
 
@@ -158,44 +177,65 @@ Rather, it is possible to develop more articulated connections between codes and
 
 ### Network view
 
-!!! error "More description needed"
-    This section requires a bit more description.
+The network view can help to examine how documents, quotations, and codes together visually.
+Each of these can be seen as a node on the network, and connections between them are known as links.
+In addition to pre-existing links, you can associate nodes manually through establishing links between these.
+(Each link may have some more specific relationship, like `is property of` or `contradicts`; you may add more relations if you prefer so.)
+In addition, ATLAS.ti allows you to automatically visualize these using layout algorithms.
+Furthermore, this view allow you to merge, split and organize codes.
 
-The network view can help to examine how documents, quotations and codes together visually.
-It allows adding more detailed relationships between codes to help on theory forming.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q-CXHZN7lZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/llelw22MFeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c1hcb6eO7uk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-!!! error "Video not in sync with the UI."
-    Current ATLAS.ti 23 may be  different from this user interface.
+!!! warning "Video not in sync with the UI."
+    Current ATLAS.ti version may be different from this user interface.
 
 ### Co-occurance
 
-Our research aims to make sense of emerging patterns from the data, for example identify how codes are often together (occurance) or identify how codes relate to original code.
+Our research aims to make sense of emerging patterns from the data, for example identify how codes are often together (cp-occurance) or identify how codes relate to original code.
 To help in this, ATLAS.ti provides various tools.
+
+Co-occurrences can be examined using **Co-occurance analysis** tools-
+You can examine co-occurances between codes (i.e., which codes are used to describe same quotations),
+or between codes and documents.
+The tool lets you
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/de4UOMgsf_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 It possible to visualise the co-occurances via **Sankey Diagram**, i.e., see which codes relate to which documents or which documets often co-occure.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-3N86QAaQ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+!!! warning "Video not in sync with the UI."
+    Current ATLAS.ti version may be different from this user interface.
 
 ### Queries
 
-Alternative, there is a mechanism to conduct **queries** to the data, examining if codes overlap or are near-by each other.
-Thus, one can examine data using combinations of codes through search interface.
+Alternative, there is a mechanism to conduct **queries** to find suitable quotes from the data.
+You can for example search for all cases where codes overlap or are near-by each other.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WlN3SwcZKkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! error "Video not in sync with the UI."
+!!! warning "Video not in sync with the UI."
     Current ATLAS.ti 23 may be  different from this user interface.
 
 
 ## Automated coding approaches
 
+!!! error "Work in progress."
+    This section is not yet ready.
+    * TODO: Add overview of problems with automated analysis
+
 ### Named entity recognition
 
+!!! error "Work in progress."
+    This section is not yet ready.
+
 ### Sentiment analysis
+
+!!! error "Work in progress."
+    This section is not yet ready.
 
 ### AI coding
 
