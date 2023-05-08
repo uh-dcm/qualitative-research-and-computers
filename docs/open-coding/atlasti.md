@@ -218,14 +218,15 @@ You can for example search for all cases where codes overlap or are near-by each
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WlN3SwcZKkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 !!! warning "Video not in sync with the UI."
-    Current ATLAS.ti 23 may be  different from this user interface.
-    
+    Current ATLAS.ti 23 is slightly different from this user interface.
+
 ## Automated coding approaches
 
 ATLAS.ti has taken steps to automated coding throught natural language processing and artificial intelligence (AI) tools.
 These tools have been integrated into the software, but their role in traditional qualitative research is still open question for the community.
 Here are a few perspectives you might consider before you might use these tools in your own work.
-However, as these tools are fairly new, the disciplinary practices have not yet evolved and you should always check how your discipline approaches them.
+However, as these tools are fairly new, the disciplinary practices have not yet evolve.
+You should always check how your discipline approaches them.
 Here are some topics you should carefully consider before applying these methods to your data.
 
 * Abstraction level:
@@ -239,23 +240,53 @@ Social scientists have critically studied algorithmic systems for over a decade.
 (Classics include [Gillespie, 2015](http://mitpress.universitypressscholarship.com/view/10.7551/mitpress/9780262525374.001.0001/upso-9780262525374-chapter-9); [Kitchin, 2017](https://www.tandfonline.com/doi/full/10.1080/1369118X.2016.1154087); [Beer, 2017](https://www.tandfonline.com/doi/full/10.1080/1369118X.2016.1216147).)
 One of their criticism is that most AI models are opaque, i.e. it is difficult to justify the outcomes (e.g., [Burrell, 2016](http://journals.sagepub.com/doi/10.1177/2053951715622512); [Kemper & Kolkman, 2019](https://www.tandfonline.com/doi/full/10.1080/1369118X.2018.1477967)) and may create a challenge for scholarly process where the expectation on transparency is higher ([van Es, 2018](https://dl.acm.org/doi/10.1145/3240431.3240436)).
 
-### Named entity recognition
-
-!!! danger "Work in progress."
-    This section is not yet ready.
-
-### Sentiment analysis
-
-!!! danger "Work in progress."
-    This section is not yet ready.
-
 ### AI coding
 
-!!! danger "Work in progress."
-    This section is not yet ready.
+!!! error "Description by Matti Nelimarkka"
+    I tried to read the ATLAS.ti documentation to write the description below.
+    However, I do not guarantee that I have understood their manuals correctly, they have a bit unspesific language there I needed to interprent.
+
+AI coding allows automatically coding the data with Open AI's GPT-models (similar to those working on the infamous ChatGPT).
+The AI models examines each word and its surrounding context, for each calculating a similarity metric with other words in the data.
+Similarity scores follow the Open AI's data on massive amount of text and language.
+Computer can identify words which have likewise similarity scores -- indicating they are often used in similar manner on the Open AI's massive data.
+Such words(s) are then coded together and suitable conceptual descriptions are related to it.
+(For more details, ATLAS.ti [manual](https://doc.atlasti.com/QuicktourWin/SearchAndCode/AICoding.html) and their [AI lab](https://atlasti.com/atlas-ti-ai-lab-accelerating-innovation-for-data-analysis) showcases their story.)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fyRUzAhVY_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wnJ9ecBJ3kc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Named entity recognition
+
+Named entity recognition (also known as NER) allows you to automatically detect and code persons, locations, organizations, and other types of named entities, i.e., actors. 
+It produces codes which you can later manage similar to all other codes, i.e., merge, split, or delete.
+You should always go through the auto-coded results on the wizard to ensure they are correctly identified.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c6nEthlRsFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+!!! warning "Video not in sync with the UI."
+    Current ATLAS.ti 23 is slightly different from this user interface.
+
+### Concept search
+
+Similar to named entity recognition, concept search helps to identify broader set of potentially relevant ideas through focusing on noun phrases in the data.
+This allows examining frequent noun phrases to automatically code the data.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BUHvchS2c8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+!!! warning "Video not in sync with the UI."
+    Current ATLAS.ti 23 is slightly different from this user interface.
+
+### Sentiment analysis
+
+Sentiment analysis allows you to classify content into one of three categories based on its affective state: positive, negative or neutral.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8ZnCro7LhaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+!!! warning "Video not in sync with the UI."
+    Current ATLAS.ti 23 is slightly different from this user interface.
+
+
 
 
