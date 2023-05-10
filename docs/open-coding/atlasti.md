@@ -35,11 +35,17 @@ You can follow [desktop only-version](../atlasti_desktop) of this document if yo
 
 ## Starting to use ATLAS.ti
 
+!!! info "This material is not an introduction how to do qualitative research."
+    This material assumes have a working knowledge of
+    * qualitative research approach(es) and the process
+    * what are quotations in the context of qualitative research, and
+    * how codes are used to make sense of the quotations and the data
+
 ### Hierarchy of ATLAS.ti
 
 On ATLAS.ti, you work with documents, quotations, codes, code groups (or categorical codes) and memos:
 
-![Hierarchy of objects in ATLAS.ti](./assets/atlas.png)
+![Hierarchy of things in ATLAS.ti](./assets/atlas.png)
 
 ### Setting up the project
 
