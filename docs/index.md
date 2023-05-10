@@ -3,21 +3,11 @@
 During this course we examine hands-on how computers may help with qualitative computers.
 It is based on series of modules, focused on different approaches of conducting qualitative analysis.
 
-
 As this is hands-on course, you are required to work with the software.
 We have created a set of assignments to get familiar with the usual workflow and process of working with qualitative research software.
 
-# Registration and course start
-
-Please register to the course in SISU:
-
-* SOST students: enroll to SOST-942 or SOST-943
-* PYAM students: enroll to PYAM-965
-* postdocs, faculty, and staff: enrollment details to be shared later
-
-After enrolling, join the course on Moodle (where you find more detailed tasks and instructions)
-
-* University of Helsinki: [Moodle](https://moodle.helsinki.fi/course/view.php?id=41394)
+This page contains a brief tutorial on different tools,
+our [Moodle](https://moodle.helsinki.fi/course/view.php?id=41394) contains set of exercises you should do with these materials.
 
 # Modules
 
