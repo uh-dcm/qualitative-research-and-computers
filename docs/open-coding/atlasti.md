@@ -140,16 +140,20 @@ This helps to maintain the potentially messy list of codes.
 
 Furthermore, it is possible to define hierarchies of codes.
 There are two ways of achieving this.
-You can have **categorical codes** which organise several (independed, or quotation-connected) codes.
+You can have **categorical codes** which organise several (independent, or quotation-connected) codes.
 Alternatively, codes can be grouped into **code groups** to aggregate data into more conceptual tools.
 It is also possible to change the colour of codes to help to visually examine the data.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fEJD3SNtmBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Alternatively, one can work independent codes directly.
-Before doing work at code level, it is a good idea to save the document and [export it](../atlasti_desktop#exporting-project).
-Sometimes an independent codes contains different conceptual ideas and there is a need to split codes into smaller units.
-Or sometimes several codes indicate the same conceptual idea and should be merged together.
+(I do not recommend this, beyond fixing mistakes or irregularities which related on your independent codes.)
+If you plan to conduct analysis through merging and splitting codes, it is a good idea to save the document and [export it](../atlasti_desktop#exporting-project).
+This way you have a backup in the case that something goes wrong.
+
+There are two main ways to work with independent codes:
+  * merging codes, for example when they relate the same conceptual idea or to increase the degree of abstraction
+  * splitting an independent code into several codes, for example when the code contains different conceptual ideas or is in too high abstraction level.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kZEmEh-DmsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
